@@ -295,17 +295,17 @@ public class ServerController {
 
     public void stop() {
         if (isServerRunning) {
-            isServerRunning = false;
             releaseEncoder();
             try {
                 wsServer.stop();
             } catch (Exception e) {
                 Log.d("HAIHAI", e.getMessage());
+            } finally {
+                Log.d("HAIHAI", "Stopping view server");
                 viewServer.stop();
-                notifyConnectionChange();
+                isServerRunning = false;
+                notifyConnectionChange();   
             }
-            viewServer.stop();
-            notifyConnectionChange();
         }
     }
 
