@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="textView">false</item>
+    <item type="id" name="scrolLView">false</item>
+    <item type="id" name="scrollView">false</item>
+    <item type="id" name="toggleButton">false</item>
+    <item type="id" name="serverStatusHeadline">false</item>
+    <item type="id" name="serverStatusLayout">false</item>
+    <item type="id" name="serverStatus">false</item>
+    <item type="id" name="clientStatus">false</item>
+    <item type="id" name="error">false</item>
+    <item type="id" name="action_preferences">false</item>
+    <item type="id" name="action_licenses">false</item>
+</resources>

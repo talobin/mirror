@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <script src="/broadway/decoder.min.js"></script>
+        <script src="/broadway/webglcanvas.min.js"></script>
+        <script src="/broadway/player.min.js"></script>
+        <script src="/receiver.js"></script>
+        <div id="container">
+            <center>
+                <div id="header">
+                    <p id="headline">Da real Nigga cast {{version}} ({{title}})</p>
+                    <input type="image" align="center" onclick="scaleUp()" src="icons/plus.png" />
+                    <input type="image" align="center" onclick="scaleDown()" src="icons/minus.png" />
+                    <input type="image" align="center" onclick="reset()" src="icons/reset.png" />
+                    <input type="image" align="center" onclick="fullscreen()" src="icons/fullscreen.png" />
+                    <div id="screen"></div>
+                </div>
+            </center>
+        </div>
+    </body>
+</html>

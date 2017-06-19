@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about">About</string>
+    <string name="access_at">"Access at "</string>
+    <string name="app_name">Screen Mirror</string>
+    <string name="client_connected">Client from %s connected</string>
+    <string name="client_not_connected">No client connected</string>
+    <string name="dialog_wifi_text">"Screen mirroring requires a network connection to your target network.
+
+Do you want to go to the Wi-Fi settings?"</string>
+    <string name="dialog_wifi_title">No network connection</string>
+    <string name="dialog_start">Screen Mirror will start capturing everything that\'s displayed on your screen.</string>
+    <string name="error">Error: %s</string>
+    <string name="error_service">Could not start screen capture</string>
+    <string name="mirroring_active">Mirroring active</string>
+    <string name="no">No</string>
+    <string name="pref_category_about">About</string>
+    <string name="pref_category_encoding">Encoding</string>
+    <string name="pref_category_network">Network</string>
+    <string name="pref_http_port_key">httpPort</string>
+    <string name="pref_http_port_title">Port</string>
+    <string name="pref_profile_key">profile</string>
+    <string name="pref_profile_title">Profile</string>
+    <string name="pref_quality_key">quality</string>
+    <string name="pref_quality_title">Quality</string>
+    <string name="pref_version_title">Version</string>
+    <string name="preferences">Preferences</string>
+    <string name="server_status">%s</string>
+    <string name="server_status_headline">Open web address</string>
+    <string name="server_status_stopped">Not running</string>
+    <string name="yes">Yes</string>
+</resources>

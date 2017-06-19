@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="client_connected">#ff11dd11</color>
+    <color name="client_disconnected">#ffff3333</color>
+    <color name="server_status_background">#ffdddddd</color>
+</resources>
